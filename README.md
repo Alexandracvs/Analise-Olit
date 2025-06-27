@@ -57,3 +57,4 @@ O design visual do dashboard foi aprimorado com a criação de um **fundo de tel
 
 🔗 [Base de dados – Kaggle: Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
+
