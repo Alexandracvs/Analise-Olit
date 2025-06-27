@@ -1,73 +1,59 @@
-## 🔹 Projetos em Destaque:
+# 🛍️ Projeto Final – Análise de E-commerce Brasileiro (Olist)
 
 Este projeto foi desenvolvido como conclusão da UFCD 10804 – Projeto de Business Intelligence, com o objetivo de aplicar práticas avançadas de modelagem de dados, análise exploratória e visualização estratégica de informações em ambiente Power BI. O estudo de caso foi baseado na base de dados da Olist, uma plataforma brasileira que conecta pequenos lojistas a grandes marketplaces, cujos dados estão disponíveis publicamente no Kaggle.
 
-
-🎯 Objetivo
-
+## 🎯 Objetivo
 Construir um painel de Business Intelligence interativo que permitisse aos gestores da Olist acompanhar o desempenho de vendas, identificar gargalos logísticos e compreender o comportamento dos clientes ao longo da jornada de compra.
 
-🧩 Estruturação do Projeto
+---
 
-📁 Importação e Modelagem de Dados
+## 🧩 Estruturação do Projeto
 
-    Foram carregados e tratados arquivos CSV correspondentes a pedidos, itens, pagamentos, clientes, vendedores, produtos, avaliações e dados geográficos.
+### 📁 Importação e Modelagem de Dados
+- Carregamento de arquivos CSV referentes a pedidos, itens, pagamentos, clientes, vendedores, produtos, avaliações e dados geográficos.
+- Estruturação no modelo estrela com uma tabela fato principal e diversas tabelas dimensão.
+- Estabelecimento de relacionamentos no Power BI para garantir a integridade das análises.
 
-    A modelagem foi feita com base no modelo estrela, criando uma tabela fato de pedidos e diversas tabelas dimensão (cliente, produto, tempo, vendedor, etc.).
+---
 
-    Relacionamentos adequados foram definidos entre as tabelas para garantir integridade e consistência nas análises.
+## 🧮 Medidas Criadas (DAX)
 
-🧮 Medidas Criadas (DAX)
+- **Receita Total**
+- **Número de Pedidos**
+- **Ticket Médio por Pedido**
+- **Tempo Médio de Entrega**
+- **Avaliação Média dos Clientes**
+- **Quantidade Total de Produtos Vendidos**
+- **Receita por Categoria**
+- **Receita por Região**
 
-Para dar suporte às análises estratégicas, foram criadas diversas medidas no Power BI usando linguagem DAX:
+Essas métricas foram fundamentais para revelar insights e orientar decisões estratégicas.
 
-    Receita Total: Soma dos valores pagos por pedidos.
+---
 
-    Número de Pedidos: Contagem de pedidos únicos.
+## 📈 Análises Realizadas
 
-    Ticket Médio por Pedido: Receita Total / Número de Pedidos.
+- Identificação das regiões com maior volume e valor de vendas;
+- Avaliação do desempenho das categorias de produtos;
+- Impacto do tempo de entrega na satisfação do cliente;
+- Análise dos métodos de pagamento mais utilizados;
+- Evolução mensal das vendas e sazonalidade.
 
-    Tempo Médio de Entrega: Diferença média entre data de entrega estimada e real.
+---
 
-    Avaliação Média dos Clientes: Média das notas dadas nas avaliações.
+## 🎨 Design e Experiência do Usuário
 
-    Quantidade Total de Produtos Vendidos: Soma das quantidades de itens nos pedidos.
+O design visual do dashboard foi aprimorado com a criação de um **fundo de tela personalizado no Figma**, alinhando a identidade visual da Olist com a apresentação dos dados, proporcionando uma experiência visual mais envolvente e profissional.
 
-    Receita por Categoria: Receita segmentada por categorias de produto.
+---
 
-    Receita por Região: Receita agregada por estados ou cidades.
+## 🛠️ Tecnologias Utilizadas
 
-Essas métricas permitiram visualizar desempenhos comparativos, identificar áreas de maior faturamento, bem como possíveis gargalos logísticos em entregas.
-📈 Análises Realizadas
+- Power BI Desktop  
+- DAX  
+- Excel  
+- Figma  
+- Kaggle  
 
-Através do dashboard interativo, foi possível obter insights como:
+🔗 [Base de dados – Kaggle: Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-    Quais estados e cidades concentram o maior volume de vendas.
-
-    Categorias com maior retorno financeiro.
-
-    Correlação entre tempo de entrega e avaliações dos clientes.
-
-    Impacto de diferentes formas de pagamento na receita total.
-
-    Desempenho de vendedores por região e categoria.
-
-    Evolução mensal de vendas e sazonalidade.
-
-Essas análises contribuem para uma tomada de decisão mais informada, orientando estratégias de marketing, logística e relacionamento com o cliente.
-🎨 Design e Experiência do Usuário
-
-Para garantir uma visualização limpa, moderna e eficaz, foi utilizado o Figma na criação de um fundo de tela personalizado, integrando o branding da Olist ao layout do Power BI. O objetivo foi proporcionar uma experiência visual coesa e alinhada aos padrões de apresentação profissional, facilitando a leitura dos dados e melhorando o impacto visual do dashboard final.
-🛠️ Tecnologias Utilizadas
-
-    Power BI Desktop
-
-    DAX
-
-    Excel (para pré-tratamento)
-
-    Figma (design visual)
-
-    Kaggle (fonte de dados)
-
-📌 Base de dados – Kaggle: Olist Brazilian E-commerce
