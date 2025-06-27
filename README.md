@@ -62,30 +62,26 @@ O design visual do dashboard foi aprimorado com a criação de um **fundo de tel
 <img src="1.png" alt="Análise Geral" width="800">
 </p>
 
-📊 Resumo do Dashboard – Análise de Vendas da Olist
+## 📊 Dashboard – Análise de Vendas da Olist
 
-Este dashboard possui filtros por Região e Ano: Permitem segmentar as análises por macrorregiões brasileiras e períodos entre 2016 e 2018.
+- **Filtros Interativos**:
+  - Segmentação por região do Brasil (Centro-Oeste, Sudeste, Norte, etc.)
+  - Segmentação por ano (2016, 2017, 2018)
 
-    KPIs principais:
+- **Principais Indicadores (KPIs)**:
+  - **Valor total por item vendido**: R$ 15.843.553,24
+  - **Média de valor por item**: R$ 140,64
+  - **Ticket médio por venda**: R$ 160,58
+  - **Quantidade de pedidos**: 99.441
+  - **Quantidade de itens vendidos**: 112.650
 
-        Valor total por item vendido: R$ 15.843.553,24
+- **Gráficos e Análises**:
+  - **Total de Vendas por Ano**: mostra o crescimento de vendas ao longo dos anos, com destaque para 2018.
+  - **Top Categorias Mais Vendidas**: identifica categorias de maior volume e valor, como cama_mesa_banho e moveis_decoracao.
+  - **Método de Pagamento**: análise cruzada da quantidade de vendas e valor total por método (cartão de crédito, boleto, etc.).
+  - **Status da Entrega**: classificação entre atrasada, antecipada e no dia.
+  - **Status do Pedido**: do pedido criado até entregue, indicando fluxo de processamento.
 
-        Média de valor por item: R$ 140,64
 
-        Ticket médio por venda: R$ 160,58
-
-        Quantidade de pedidos: 99.441
-
-        Quantidade de itens vendidos: 112.650
-
-    Análise Temporal: Gráfico de colunas mostra a evolução do total de vendas por ano, evidenciando crescimento consistente de 2016 a 2018.
-
-    Categorias Mais Vendidas: Visual horizontal destaca as principais categorias por volume de vendas e receita, com destaque para cama_mesa_banho, moveis_decoracao e beleza_saude.
-
-    Métodos de Pagamento: Gráfico combinado apresenta a contagem de vendas e o valor total movimentado por método de pagamento, com destaque para cartão de crédito e boleto.
-
-    Status da Entrega: Segmentado entre entregas atrasadas, antecipadas e no dia — sendo mais da metade das entregas classificadas como atrasadas.
-
-    Status do Pedido: Mostra o fluxo dos pedidos desde o status “created” até “delivered”, revelando que a grande maioria chegou ao destino final.
 
 
