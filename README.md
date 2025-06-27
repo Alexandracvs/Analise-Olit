@@ -58,6 +58,7 @@ Construi o painel no Power BI focando na clareza e interatividade. Para enriquec
 
 
 
+
 ## 📊 Dashboard – Análise de Vendas da Olist
 <img src="1.png" alt="Análise Geral" width="800">
 </p>
